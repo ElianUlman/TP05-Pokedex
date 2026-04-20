@@ -7,16 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form>
-        <input type="text" id="pokemonName" placeholder="pokemon Name">
-        <button type="button" onclick=putPokemonInDom()>submitear</button>
-    </form>
+    <div class="screen">
+        <form>
+            <input type="text" id="pokemonName" placeholder="pokemon Name">
+            <button type="button" onclick=putPokemonInDom()>submit</button>
+        </form>
+        <h2 id="message"></h2>
+        <h1 id="Nombre"></h1>
+        <div class="images">
+            <img src="" alt="" id="Imagen">
+            <img src="" alt="" id="ImagenAtras">
+        </div>
+        
+        <h3 id="Tipo"></h3>
+
+        <div class="otherStats">
+            <h4 id="Peso"></h4>
+            <h4 id="Altura"></h4>    
+        </div>
+        
+    </div>
     
-    <h1 id="Nombre"></h1>
-    <img src="" alt="" id="Imagen">
-    <h3 id="Tipo"></h3>
-    <h4 id="Peso"></h4>
-    <h4 id="Altura"></h4>
 
     <script src="index.js"></script>
 </body>
